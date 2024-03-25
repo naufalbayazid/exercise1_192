@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Box</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .my-box {
+        
+        border: 3px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+    h1 {
+        margin: 0;
+        border: 2px;
+      }
+
+      
+      .my-box img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .my-box button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+
+      .content {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .content ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .content li {
+        margin-bottom: 10px;
+      }
+
+      .content table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .content table th,
+      .content table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="my-box">
+        <h1>Burger Sayur</h1>
+        <p>Burger adalah sebuah makanan roti yang berisikan daging, sayur, mayonaise, dan sauce,burger juga ada terbagi menjadi beberapa varian contonya adalah burger keju dan burger sapi</p>
+        <div class="content">
+        
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <table>
+            <thead>
+              <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+                <td>Row 1, Column 3</td>
+              </tr>
+              <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+                <td>Row 2, Column 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <img src="burger.jpeg" alt="My Box Image" />
+        <button>Click Me!</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
