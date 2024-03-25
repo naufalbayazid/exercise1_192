@@ -3,58 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judul Halaman</title>
+    <title>Exercise 1</title>
     <style>
+        /* Style untuk menata tampilan halaman */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .container {
-            text-align: center;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 10px;
             padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
-        }
-        .image-box {
+        header {
+            text-align: center;
             margin-bottom: 20px;
         }
-        .image-box img {
+        img {
+            display: block;
+            margin: 0 auto;
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
+            margin-bottom: 20px;
         }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+        section {
+            margin-bottom: 20px;
         }
-        .button:hover {
-            background-color: #0056b3;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #2b0909;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ce0000;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Judul Halaman</h1>
-        <div class="image-box">
-            <img src="gambar.jpg" alt="Gambar">
-        </div>
-        <a href="#" class="button">Tombol</a>
-    </div>
+    <header>
+        <h1>Welcome to Barcelona</h1>
+    </header>
+    
+    <section>
+        <h2></h2>
+        <img src="MCFC.jpg" alt="Foto Contoh">
+    </section>
+    
+    <section>
+        <h2>De Cataluna</h2>
+        <p>Ini adalah contoh paragraf. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+    
+    <section>
+        <h2>Most of Legends</h2>
+        <ul>
+            <li>Carles Puyol</li>
+            <li>Erick Abidal</li>
+            <li>Leo messi</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Most Generation</h2>
+        <ol>
+            <li>Carbasi</li>
+            <li>Lamine Yamal</li>
+            <li>Gavi</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Tabel</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Messi</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Sergi Roberto</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
